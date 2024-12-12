@@ -1,0 +1,76 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "Selenized (Rails)",
+  "author": "Etienne van Delden de la Haije",
+  "themes": [
+    {
+      "name": "Selenized Light",
+      "appearance": "light",
+      "style": {
+        "background": "#fbf3db",
+        "element.background": "#fbf3db",
+        "editor.background": "#fbf3db",
+        "editor.gutter.background": "#fbf3db",
+        "panel.background": "#fbf3db",
+        "surface.background": "#fbf3db",
+        "elevated_surface.background": "#fbf3db",
+        "title_bar.background": "#ececec",
+        "tab_bar.background": "#f2f0ef",
+        "toolbar.background": "#fbf3db",
+        "tab.inactive_background": "#f2f1ef",
+        "tab.active_background": "#fbf3db",
+        "terminal.background": "#fbf3db",
+
+        "text": "#3a4d53",
+        "text.muted": "#53676d",
+        "text.placeholder": "#53676d",
+        "text.disabled": "#53676d",
+        "text.accent": "#d2212d",
+
+        "editor.foreground": "#3a4d53",
+
+        "syntax": {
+          "attribute": {
+            "color": "#489100"
+          },
+          "comment": {
+            "color": "#909995",
+            "font_style": "italic"
+          },
+          "constant": {
+            "font_weight": 400
+          },
+          "enum": {
+            "color": "#ca4898"
+          },
+          "function": {
+            "color": "#0072d4"
+          },
+          "keyword": {
+            "color": "#909995",
+            "font_style": "italic",
+            "font_weight": 700
+          },
+          "punctuation.bracket": {
+            "color": "#909995",
+            "font_style": "normal",
+            "font_weight": 100
+          },
+          "string.regex": {
+            "color": "#d2212d"
+          },
+          "text.literal": {
+            "color": "#53676d"
+          },
+          "type": {
+            "color": "#c25d1e"
+          },
+          "variable": {
+            "color": "#489100"
+          },
+          "variant": {}
+        }
+      }
+    }
+  ]
+}
