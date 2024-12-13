@@ -27,116 +27,114 @@ color_map:
     bright_violet: "#825dc0"
     macos_panel_0: "#f2f1ef"
     macos_panel_1: "#ececec"
-basic_tepmlate:
-  style:
-    background: background_0
-    element.background: background_0
-    editor.background: background_0
-    editor.foreground: foreground_1
-    editor.gutter.background: background_0
-    elevated_surface.background: background_1
-    # MacOS style elements
-    panel.background: macos_panel_0
-    surface.background: macos_panel_0
-    title_bar.background: macos_panel_1
-    # Tabs
-    tab_bar.background: "#f2f0ef"
-    toolbar.background: background_0
-    tab.inactive_background: macos_panel_0
-    tab.active_background: background_0
-    # Text
-    text: foreground_1
-    text.accent: blue
-    text.disabled: dim
-    text.muted: foreground_0
-    text.placeholder: dim
-    # Terminal
-    terminal.ansi.black: foreground_0
-    terminal.ansi.blue: blue
-    terminal.ansi.bright_black: foreground_1
-    terminal.ansi.bright_blue: bright_blue
-    terminal.ansi.bright_red: bright_red
-    terminal.ansi.bright_cyan: bright_cyan
-    terminal.ansi.bright_green: bright_green
-    terminal.ansi.bright_magenta: bright_magenta
-    terminal.ansi.bright_white: ""
-    terminal.ansi.bright_yellow: bright_yellow
-    terminal.ansi.cyan: cyan
-    terminal.ansi.dim_black: dim
-    terminal.ansi.green: green
-    terminal.ansi.magenta: magenta
-    terminal.ansi.red: red
-    terminal.ansi.white: ""
-    terminal.ansi.yellow: yellow
-    terminal.background: background_0
-    terminal.bright_foreground: background_1
-    terminal.dim_foreground: background_2
-    terminal.foreground: foreground_0
-    # Colours
-    error: bright_red
-    error.background: background_2
-    hint: yellow
-    hint.background: background_2
-    info: blue
-    info.background: background_2
-    success: green
-    success.background: background_2
-    unreachable: red
-    unreachable.background: background_2
-    warning: orange
-    warning.background: background_2
-    # Git
-    conflict: orange
-    created: bright_green
-    deleted: red
-    ignorede: dim
-    modified: bright_yellow
-    # Brackets
-    editor.document_highlight.bracket_background: background_2
-    # Code Syntax colouring
-    syntax:
-      attribute:
-        color: green
-      comment:
-        color: dim
-        font_style: "italic"
-      constant:
-        font_weight: 400
-      enum:
-        color: green
-      function:
-        color: blue
-      function.method:
-        color: bright_blue
-      keyword:
-        color: dim
-        font_style: "italic"
-        font_weight: 700
-      property:
-        color: green
-      punctuation.bracket:
-        color: dim
-        font_style: "normal"
-        font_weight: 100
-      punctuation.delimeter:
-        color: dim
-        font_style: "normal"
-        font_weight: 100
-      punctuation.special:
-        color: green
-      string.regex:
-        color: red
-      text.literal:
-        color: foreground_0
-      type:
-        color: orange
-      type.builtin:
-        color: "#a9430f"
-        font_style: "italic"
-      variable:
-        color: green
-      variable.special:
-        color: bright_green
+  basic_template:
+    style:
+      background: background_0
+      element.background: background_0
+      editor.background: background_0
+      editor.foreground: foreground_1
+      editor.gutter.background: background_0
+      elevated_surface.background: background_1
+      # MacOS style elements
+      panel.background: macos_panel_0
+      surface.background: macos_panel_0
+      title_bar.background: macos_panel_1
+      # Tabs
+      tab_bar.background: macos_panel_0
+      toolbar.background: background_0
+      tab.inactive_background: macos_panel_0
+      tab.active_background: background_0
+      # Text
+      text: foreground_1
+      text.accent: blue
+      text.disabled: dim
+      text.muted: foreground_0
+      text.placeholder: dim
+      # Terminal
+      terminal.ansi.black: foreground_0
+      terminal.ansi.blue: blue
+      terminal.ansi.bright_black: foreground_1
+      terminal.ansi.bright_blue: bright_blue
+      terminal.ansi.bright_red: bright_red
+      terminal.ansi.bright_cyan: bright_cyan
+      terminal.ansi.bright_green: bright_green
+      terminal.ansi.bright_magenta: bright_magenta
+      terminal.ansi.bright_yellow: bright_yellow
+      terminal.ansi.cyan: cyan
+      terminal.ansi.dim_black: dim
+      terminal.ansi.green: green
+      terminal.ansi.magenta: magenta
+      terminal.ansi.red: red
+      terminal.ansi.yellow: yellow
+      terminal.background: background_0
+      terminal.bright_foreground: background_1
+      terminal.dim_foreground: background_2
+      terminal.foreground: foreground_0
+      # Colours
+      error: bright_red
+      error.background: background_2
+      hint: yellow
+      hint.background: background_2
+      info: blue
+      info.background: background_2
+      success: green
+      success.background: background_2
+      unreachable: red
+      unreachable.background: background_2
+      warning: orange
+      warning.background: background_2
+      # Git
+      conflict: orange
+      created: bright_green
+      deleted: red
+      ignorede: dim
+      modified: bright_yellow
+      # Brackets
+      editor.document_highlight.bracket_background: background_2
+      # Code Syntax colouring
+      syntax:
+        attribute:
+          color: green
+        comment:
+          color: dim
+          font_style: "italic"
+        constant:
+          font_weight: 400
+        enum:
+          color: green
+        function:
+          color: blue
+        function.method:
+          color: bright_blue
+        keyword:
+          color: dim
+          font_style: "italic"
+          font_weight: 700
+        property:
+          color: green
+        punctuation.bracket:
+          color: dim
+          font_style: "normal"
+          font_weight: 100
+        punctuation.delimeter:
+          color: dim
+          font_style: "normal"
+          font_weight: 100
+        punctuation.special:
+          color: green
+        string.regex:
+          color: red
+        text.literal:
+          color: foreground_0
+        type:
+          color: orange
+        type.builtin:
+          color: "#a9430f"
+          font_style: "italic"
+        variable:
+          color: green
+        variable.special:
+          color: bright_green
 themes:
   selenized_light:
     name: "Selenized Light"
